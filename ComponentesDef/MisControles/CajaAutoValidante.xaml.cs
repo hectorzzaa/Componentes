@@ -30,7 +30,7 @@ namespace Componentes.MisControles
         private void MitextoAutoValidante_LostFocus(object sender, RoutedEventArgs e)
         {
             errorValidacion = "No hay error";
-            if (tipoValidacion=="dni")
+            if (tipoValidacion=="DNI")
             {
                 chequeoDNI();
             }else if (tipoValidacion == "TFN")
@@ -41,6 +41,7 @@ namespace Componentes.MisControles
             {
                 chequeoCP();
             }
+            MiLabelControlError.Content= errorValidacion;
         }
 
         private void chequeoCP()
@@ -115,6 +116,11 @@ namespace Componentes.MisControles
             {
                 errorValidacion = "El DNI debe tener 9 digitos";
             }
+        }
+
+        private void MitextoAutoValidante_TextChanged(object sender, TextChangedEventArgs e)
+        {
+
         }
     }
 }
