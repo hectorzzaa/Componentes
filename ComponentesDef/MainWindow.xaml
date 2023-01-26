@@ -23,9 +23,9 @@
         <Label Content="CODIGO POSTAL" Grid.Row="2"/>
         <Label Content="TELEFONO" Grid.Row="3"/>
         <MisControles:CajaAutoValidante Grid.Column="1" Height="100"/>
-        <MisControles:CajaAutoValidante Grid.Column="1" Grid.Row="1" tipoValidacion="DNI" Height="100"></MisControles:CajaAutoValidante>
-        <MisControles:CajaAutoValidante Grid.Column="1" Grid.Row="2" tipoValidacion="cp" Height="100"></MisControles:CajaAutoValidante>
-        <MisControles:CajaAutoValidante Grid.Column="1" Grid.Row="3" tipoValidacion="TFN" Height="100"></MisControles:CajaAutoValidante>
+        <MisControles:CajaAutoValidante Grid.Column="1" Grid.Row="2" tipoValidacion="CP" Height="100"/>
+        <MisControles:CajaAutoValidante Grid.Column="1" Grid.Row="3" tipoValidacion="TFN" Height="100"/>
+        <MisControles:CajaAutoValidante Grid.Column="1" Grid.Row="1" tipoValidacion="DNI" />
 
 
 
