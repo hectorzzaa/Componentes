@@ -7,10 +7,6 @@
   </PropertyGroup>
 
   <ItemGroup>
-    <ProjectReference Include="..\Componentes\Componentes.csproj" />
-  </ItemGroup>
-
-  <ItemGroup>
     <Compile Update="MisControles\CajaAutoValidante.xaml.cs">
       <SubType>Code</SubType>
     </Compile>

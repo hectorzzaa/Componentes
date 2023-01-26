@@ -9,7 +9,7 @@
     <Grid Margin="0,0,10,10">
         <StackPanel>
             <TextBox x:Name="MitextoAutoValidante" Margin="10" LostFocus="MitextoAutoValidante_LostFocus"></TextBox>
-            <Label x:Name="MiLabelControlError" Content="Prueba" Background="Red"/>
+            <Label x:Name="MiLabelControlError"/>
         </StackPanel>
     </Grid>
 </UserControl>

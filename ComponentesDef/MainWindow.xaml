@@ -4,7 +4,7 @@
         xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
         xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
         xmlns:local="clr-namespace:ComponentesDef"
-        xmlns:MisControles="clr-namespace:Componentes.MisControles;assembly=Componentes" x:Class="ComponentesDef.MainWindow"
+        xmlns:MisControles="clr-namespace:Componentes.MisControles;assembly=Componentes" xmlns:MisControles1="clr-namespace:Componentes.MisControles" x:Class="ComponentesDef.MainWindow"
         mc:Ignorable="d"
         Title="MainWindow" Height="450" Width="800">
     <Grid>
@@ -22,10 +22,11 @@
         <Label Content="DNI" Grid.Row="1"/>
         <Label Content="CODIGO POSTAL" Grid.Row="2"/>
         <Label Content="TELEFONO" Grid.Row="3"/>
-        <MisControles:CajaAutoValidante Grid.Column="1" Height="100"/>
-        <MisControles:CajaAutoValidante Grid.Column="1" Grid.Row="2" tipoValidacion="CP" Height="100"/>
-        <MisControles:CajaAutoValidante Grid.Column="1" Grid.Row="3" tipoValidacion="TFN" Height="100"/>
-        <MisControles:CajaAutoValidante Grid.Column="1" Grid.Row="1" tipoValidacion="DNI" />
+        <MisControles1:CajaAutoValidante Grid.Column="1" Height="100"/>
+        <MisControles1:CajaAutoValidante Grid.Column="1" Grid.Row="1"  Height="100" tipoValidacion="DNI"/>
+        <MisControles1:CajaAutoValidante Grid.Column="1" Grid.Row="2" Height="100" tipoValidacion="CP"/>
+        <MisControles1:CajaAutoValidante Grid.Column="1" Grid.Row="3" Height="100" tipoValidacion="TFN"/>
+
 
 
 
